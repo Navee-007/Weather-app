@@ -12,7 +12,7 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 2rem;
-  background-image: url(img/joshua-reddekopp-7Oq9r2CiTLg-unsplash.jpg);
+  background-image: url('./img/joshua-reddekopp-7Oq9r2CiTLg-unsplash.jpg');
   background-size: cover;
   background-position: center;
   font-family: sans-serif;
