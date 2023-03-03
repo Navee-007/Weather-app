@@ -19,7 +19,7 @@ if (navigator.geolocation) {
 
 	// API URL
 	const base =
-`http://api.openweathermap.org/data/2.5/weather?lat=${lat}&` +
+`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&` +
 `lon=${lon}&appid=6d055e39ee237af35ca066f35474e9df`;
 
 	// Calling the API
