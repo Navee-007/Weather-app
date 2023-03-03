@@ -11,17 +11,28 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(rgb(123, 184, 104), rgb(13, 87, 10));
   font-size: 2rem;
+  background-image: url(img/joshua-reddekopp-7Oq9r2CiTLg-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
   font-family: sans-serif;
-  color: rgb(7, 9, 10);
+  color: rgb(0, 0, 0);
 }
 .container {
-  height: 20rem;
-  width: 15rem;
-  background-color: rgb(152, 228, 165);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 25rem;
+  width: 20rem;
+  background-color: rgba(205, 205, 205, 0.852);
   text-align: center;
-  padding-top: 12px;
+  padding: 12px;
   border-radius: 16px;
-  border: 2px solid rgb(14, 43, 1);
+  
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.icon{
+  width: 90px;
 }
